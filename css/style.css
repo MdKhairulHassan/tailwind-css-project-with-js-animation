@@ -1,0 +1,42 @@
+/* .test-rgba-color{
+  background: rgba(0, 0, 0, 0.7);
+} */
+
+
+/* Sticky Header Start */
+.navbarone{
+  background: #F40404;
+  position: fixed;
+  top: 62px;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+.sticky_header{
+  background: rgba(244, 77, 77, 0.796);
+  animation: JBG 1s;
+  top: 0;
+}
+@keyframes JBG{
+  from{
+    top: -100px;
+  }
+  to{
+    top: 0;
+  }
+}
+/* Sticky Header End */
+
+/* Back To Top ======================================================================= */
+.back-to-top i{
+	padding: 1px 5px;
+	color: black;
+	background: rgba(244, 77, 77, 0.796);
+	font-size: 50px;
+	border-radius: 50%;
+	position: fixed;
+	right: 25px;
+	bottom: 25px;
+	z-index: 1;
+}
+/* Back To Top ======================================================================= */
